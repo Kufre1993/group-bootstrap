@@ -1,0 +1,36 @@
+
+#head{
+    background: linear-gradient(rgba(0,0,34,0.56),rgba(0,0,34,0.56)), url('img/callaction-bg.jpg');
+    background-size: cover;
+    height: 600px;
+    background-position:  center;
+    background-attachment: fixed;
+}
+.headerText{
+    padding-top: 190px;
+    font-size: 60px !important;
+
+}
+@media(max-width:768px){
+    #head{
+        height: 400px  !important;
+    }
+}
+@media(max-width:425px){
+    .headerText{
+        padding-top: 90px !important;
+        text-align: center !important;
+    }
+}
+/* .col{
+   color: white !important;
+   border-color: white !important;
+   background-color: black !important;
+} */
+.last{
+    background: linear-gradient(rgba(0,0,34,0.56),rgba(0,0,34,0.56)), url('img/third.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position:  center;
+    background-attachment: fixed;
+}
